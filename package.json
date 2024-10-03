@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "inspect-config": "npx @eslint/config-inspector@latest",
-    "build-preview":"npx -y @eslint/config-inspector@latest build --base ${npm_package_name}"
+    "build":"npx -y @eslint/config-inspector@latest build --base ${npm_package_name}"
   },
   "author": "",
   "license": "ISC",
