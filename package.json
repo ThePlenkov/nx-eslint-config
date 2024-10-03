@@ -1,0 +1,16 @@
+{
+  "name": "nx-eslint-config",
+  "version": "1.0.0",
+  "description": "NX eslint config inspector",
+  "main": "index.js",
+  "scripts": {
+    "inspect-config": "eslint --flag unstable_ts_config"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/config-inspector": "^0.5.4",
+    "@nx/eslint-plugin": "^19.8.3",
+    "eslint": "^9.11.1"
+  }
+}
